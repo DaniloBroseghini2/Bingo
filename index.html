@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bingo</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bingo</h1>
+    </header>
+
+    <main>
+
+        <section id="area_cartelas">
+
+            <div id="header_cartelas">
+                <h3>Cartelas</h3>
+                <button onclick="desenharCartela()">Gerar Cartelas</button>
+                <button onclick="limparCartelas()">Reiniciar</button>
+            </div>
+
+            <div id="body_cartelas">
+            </div>
+
+        </section>
+
+        <section id="area_numeros">
+            <div id="header_numeros">
+                <button onclick="jogar()">Jogar</button>
+            </div>
+            <div id="body_numeros"></div>
+        </section>
+
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

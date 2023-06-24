@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fbff00;
+
+}
+
+header {
+    height: 20vh;
+    width: 100%;
+    background-color: #fbff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 75vh;
+
+}
+
+section#area_cartelas {
+    width: 70%;
+    height: 75vh;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+div#header_cartelas,
+div#header_numeros {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fbff00;
+    font-size: 80px;
+    border-radius: 20px;
+}
+
+
+div#body_cartelas {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div.cartela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+div.cartela h4 {
+    margin-bottom: 5px;
+    color: #fbff00;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(228, 253, 0);
+    border-collapse: collapse;
+    color: #fbff00;
+}
+
+th,
+td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+
+button {
+    width: 200px;
+    height: 100px;
+    background-color: #fbff00;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: rgb(68, 68, 68);
+}
+
+section#area_numeros {
+    width: 30%;
+    height: 75vh;
+    background-color: #000000;
+    border: 5px solid #fbff00;
+    border-radius: 20px;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 5vh;
+    background-color: #fbff00;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: #fbff00;
+}
+
+td.marcado {
+    background-color: yellow;
+}
+
+#body_numeros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#body_numeros span {
+    background-color: yellow;
+    padding: 2px;
+}
